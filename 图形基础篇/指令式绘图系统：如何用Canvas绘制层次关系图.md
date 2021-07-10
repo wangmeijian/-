@@ -32,3 +32,12 @@
 - 当前的虚线列表
 - 以下熟悉的当前值：strokeStyle, fillStyle, globalAlpha, lineWidth, lineCap, lineJoin, miterLimit, lineDashOffset, shadowOffsetX, shadowOffsetY, shadowBlur, shadowColor, globalCompositeOperation, font, textAlign, textBaseline, direction, imageSmoothingEnabled.
 
+## canvas的优缺点
+### 优点
+canvas是一个非常简单易用的图形系统，并且canvas渲染起来相当高效。
+
+### 缺点
+很难直接抽取其中的图形对象进行操作，相较于HTML或者SVG，我们可以一一获取这些图形然后给他们绑定事件。
+
+
+
